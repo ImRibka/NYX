@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/911635370846846986/920011660826124348/2021-12-13_20.53.28.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(97, 202, 21);
+}
+.text{
+    color: rgb(39, 78, 216);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    left: 20%;
+}
+.content{
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.block{
+    position: absolute;
+    background: rgba(9, 196, 146, 0.265);
+    height: 100%;
+    width: 350px;
+    top: 0%;
+    left: 0%;;
+}
+.zagolovok{
+    position: relative;
+    left: 40%;
+    top: 10%;
+    color: rgb(56, 7, 251);
+}
