@@ -14,9 +14,7 @@ h1{
     left: 20%;
 }
 .content{
-    position: relative;
-    top: 2px;
-    left: 2px;
+    position: fixed;
 }
 .block{
     position: absolute;
@@ -27,8 +25,87 @@ h1{
     left: 0%;;
 }
 .zagolovok{
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
     left: 40%;
     top: 10%;
-    color: rgb(56, 7, 251);
+    color: rgb(209, 196, 8);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(44, 43, 43);
+}
+.block2{
+    position: absolute;
+    background:rgba(102, 177, 48, 0.678);
+    left: 360px;
+    right: 200px;
+    bottom: 120px;
+    top: 240px;
+}
+.photo{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+.photo2{
+    position: absolute;
+    left: 37%;
+    top: 60%;
+}
+.photo3{
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+.mashinatext{
+    position: absolute;
+    left: 6%;
+    top: 70%;
+    color: rgb(5, 20, 105);
+}
+.perelomtext{
+    position: absolute;
+    left: 38%;
+    top: 40%;
+    color: rgb(5, 20, 105);
+}
+.domgorittext{
+    position: absolute;
+    left: 71%;
+    top: 70%;
+    color: rgb(5, 20, 105);
+}
+.text2{
+    position: absolute;
+    color: rgb(5, 20, 105);
+    font: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-variant-position: normal;
+    left: 10%;
+    top: 20%;
+    right: 30%;
+    bottom: 50%;
+}
+.background2{
+    position: absolute;
+    background:rgba(8, 243, 243, 0.10);
+    left: 10%;
+    top: 20%;
+    right: 30%;
+    bottom: 50%;
+}
+.aboutus_in_index{ 
+    position: absolute;
+    font-size: 50px;
+    color: coral;
+    -webkit-text-stroke-color: rgba(71, 57, 52, 0.356);
+    -webkit-text-stroke-width: 1px;
+}
+.licensionka{
+    position: absolute;
+    font-size: 50px;
+    color: coral;
+    -webkit-text-stroke-color: rgba(71, 57, 52, 0.356);
+    -webkit-text-stroke-width: 1px;
+    top: 20%;
 }
